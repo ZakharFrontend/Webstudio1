@@ -1,6 +1,18 @@
 /* font-family: "Roboto", sans-serif; */
 /* font-family: "Raleway", sans-serif; */
 
+:root {
+    --background12text-color: #FFFFFF;
+    --h2h3text-color: #212121;
+    --sectionourteam-background: #F5F4FA;
+    --footer-background: #2F303A;
+    --text-color: #757575;
+    --footeradress-color: rgba(255, 255, 255, 0.6);
+    --accent-color: #2196F3;
+    --logo-color: #000;
+    --border-color: #EEE;
+}
+
 .container {
     width: 1200px;
     padding-left: 15px;
@@ -15,35 +27,6 @@ body {
     padding: 0;
 }
 
-img {
-    display: block;
-}
-
-a {
-    text-decoration: none;
-    padding: 0;
-}
-
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.us-list {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-h1,
-h2,
-h3,
-h4,
-p {
-    margin: 0;
-    padding: 0;
-}
 
 /* index.html */
 
@@ -170,6 +153,29 @@ p {
     line-height: 1.14;
     letter-spacing: 0.42px;
     text-transform: uppercase;
+}
+
+.advantages-item::before {
+    content: "";
+    width: 270px;
+    height: 120px;
+    background-color: var(--sectionourteam-background);
+    background-image: url(../grafika/antenna.png);
+    display: block;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.advantages-item:nth-child(2)::before {
+    background-image: url(../grafika/clock.png);
+}
+
+.advantages-item:nth-child(3)::before {
+    background-image: url(../grafika/actens.png)
+}
+.advantages-item:nth-child(4)::before {
+    background-image: url(../grafika/astronaut.png)
 }
 
 .advantages-text {
@@ -315,6 +321,15 @@ p {
 
 
 /* portfolio */
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
 .button-list {
     display: flex;
     gap: 8px;
