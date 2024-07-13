@@ -106,10 +106,10 @@ body {
 
 /* секція герой */
 .hero {
+    background-color: var(--footer-background);
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
-    background-image: url(../grafika/hero_background.jpg);
 }
 
 .hero-title {
