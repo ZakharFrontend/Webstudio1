@@ -75,43 +75,6 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
   }
-  
-  @keyframes change {
-    0% {
-    color: var(--button-color);
-    }
-    10% {
-    color: darkblue;
-    }
-    20% {
-    color: green;
-    }
-    30% {
-    color: lightseagreen;
-    }
-    40% {
-    color: seagreen;
-    }
-    50% {
-    color: yellow;
-    }
-    60% {
-    color: orange;
-    }
-    70% {
-    color: red;
-    }
-    80% {
-    color: pink;
-    }
-    90% {
-    color: darkorchid;
-    }
-    100% {
-    color: cornflowerblue;
-    }
-  }
-  
   .header-nav {
     margin-left: 93px;
   }
